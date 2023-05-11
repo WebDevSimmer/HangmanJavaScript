@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Movie Hangman</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>Hangman: Guess The Name of The Movie</h1>
+      <div id="gallows">
+        <img style="padding-left: 70px" id="hangmanImage" src="img/hangman0.png">
+      </div>
+      <div id="word"></div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord(game)">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   <script src="script.js"></script>
+  </body>
+</html>
